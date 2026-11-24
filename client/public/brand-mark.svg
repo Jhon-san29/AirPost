@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-label="EPOSTCARD">
+  <rect width="512" height="512" rx="112" fill="#fbf7f1"/>
+  <circle cx="256" cy="256" r="194" fill="#df725f"/>
+  <path d="M256 356s-118-70-118-151c0-42 30-72 69-72 23 0 40 12 49 30 9-18 26-30 49-30 39 0 69 30 69 72 0 81-118 151-118 151z" fill="#fffaf5"/>
+  <path d="M256 333s-95-56-95-125c0-29 19-50 47-50 22 0 37 14 48 34 11-20 26-34 48-34 28 0 47 21 47 50 0 69-95 125-95 125z" fill="#df725f" opacity=".92"/>
+</svg>

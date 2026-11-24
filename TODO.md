@@ -1,0 +1,9 @@
+# EPOSTCARD TODO
+
+- [x] **Create and preview Burmese postcards** — Users can set recipient, sender, message, occasion and theme; choose a ready-made template; edit story-flow cards, change their order, and add a photo or GIF; and see a live preview while editing.
+- [x] **Persist postcard content and media in hosting storage** — Save each postcard JSON and its uploaded image/GIF objects under a postcard-specific cloud-storage path. Do not use a database or localStorage for postcard content or the saved-card list.
+- [x] **Manage saved postcards from the cloud manifest** — Load the saved-card list from the hosting storage manifest, reopen and edit a saved postcard, and remove it from the manifest. Keep the list owner-scoped without a database.
+- [x] **Create compact storage-key share links** — Store a postcard before sharing; generate a link containing only its storage-object key rather than postcard JSON or image/GIF base64; allow recipients to load and view that postcard from cloud storage.
+- [x] **Retain compatibility with old inline links** — Existing `#card=...` postcard links continue to decode and display.
+- [x] **Customize story-flow buttons and remove top labels** — The sender can edit each flow button's text and action, add or remove buttons (at least one per flow step, up to eight), and choose a destination flow step for jump actions; top-label editing is removed and top labels are not shown on recipient-facing flow screens. The envelope-opening button text is also editable. Older saved postcards without button settings continue to use their familiar default buttons.
+- [x] **Choose from an expanded theme palette** — The sender can choose from fourteen distinct theme colors; the selected theme is reflected in the editor preview and recipient view, including for saved postcards using existing theme IDs.
